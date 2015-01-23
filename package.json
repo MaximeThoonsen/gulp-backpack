@@ -1,6 +1,6 @@
 {
   "name": "gulp-backpack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collect all the classic gulp's dependencies you need in one package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
