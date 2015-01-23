@@ -1,0 +1,21 @@
+{
+  "name": "gulp-backpack",
+  "version": "0.0.0",
+  "description": "Collect all the classic gulp's dependencies you need in one package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaximeThoonsen/gulp-backpack"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Maxime Thoonsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaximeThoonsen/gulp-backpack/issues"
+  },
+  "homepage": "https://github.com/MaximeThoonsen/gulp-backpack"
+}
