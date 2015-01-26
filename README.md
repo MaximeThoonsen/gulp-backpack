@@ -4,7 +4,6 @@ This repository is meant to simplify the inclusion of all those tools we need to
 ##gulp tool
 Gulp Backpack includes:
 
-* "gulp": "^3.6.2"
 * "gulp-angular-templatecache": "^1.1.3"
 * "gulp-autoprefixer": "^2.0.0"
 * "gulp-coffee": "^1.4.3"
@@ -29,4 +28,19 @@ Gulp Backpack includes:
 
 * "del": "^1.1.1"
 * "require-dir": "^0.1.0"
-* "run-sequence": "^1.0.1"
+
+
+## HOW TO USE IT
+
+    gulp = require 'gulp'
+    parameters = require '../../parameters.coffee'
+    gbp = require 'gulp-backpack'
+
+    # Compile webpages from Jade to HTML
+    # Only applies to files located on the app_path folder
+    # Jade files in subdirectories are considered as templates
+    gulp.task 'jade', ->
+      gulp.src "#{parameters.app_path}/*.jade"
+      .pipe gbp.plumber()
+      .pipe gbp.jade pretty: true
+      .pipe gulp.dest parameters.build_temp_path

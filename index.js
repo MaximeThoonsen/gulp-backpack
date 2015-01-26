@@ -1,0 +1,22 @@
+module.exports = {
+    templateCache: require('gulp-angular-templatecache'),
+    autoprefixer: require('gulp-autoprefixer'),
+    coffeelint: require('gulp-coffeelint'),
+    coffee: require('gulp-coffee'),
+    concat: require('gulp-concat'),
+    filter: require('gulp-filter'),
+    jade: require('gulp-jade'),
+    less: require('gulp-less'),
+    manifest: require('gulp-manifest'),
+    ngAnnotate: require('gulp-ng-annotate'),
+    plumber: require('gulp-plumber'),
+    rename: require('gulp-rename'),
+    replace: require('gulp-replace'),
+    rev: require('gulp-rev'),
+    revCollector: require('gulp-rev-collector'),
+    uglify: require('gulp-uglify'),
+    util: require('gulp-util'),
+    webserver: require('gulp-webserver'),
+    del: require('del'),
+    requireDir: require('require-dir')
+};

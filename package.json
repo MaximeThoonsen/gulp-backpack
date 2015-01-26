@@ -1,6 +1,6 @@
 {
   "name": "gulp-backpack",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Collect all the classic gulp's dependencies you need in one package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,10 +18,6 @@
     "url": "https://github.com/MaximeThoonsen/gulp-backpack/issues"
   },
     "dependencies": {
-        "del": "^1.1.1",
-        "require-dir": "^0.1.0",
-        "run-sequence": "^1.0.1",
-        "gulp": "^3.6.2",
         "gulp-angular-templatecache": "^1.1.3",
         "gulp-autoprefixer": "^2.0.0",
         "gulp-coffee": "^1.4.3",
@@ -40,7 +36,9 @@
         "gulp-rev-collector": "^0.1.1",
         "gulp-uglify": "^0.2.1",
         "gulp-util": "^2.2.20",
-        "gulp-webserver": "^0.8.8"
+        "gulp-webserver": "^0.8.8",
+        "del": "^1.1.1",
+        "require-dir": "^0.1.0"
     },
   "homepage": "https://github.com/MaximeThoonsen/gulp-backpack"
 }
