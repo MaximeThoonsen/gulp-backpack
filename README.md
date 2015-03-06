@@ -14,7 +14,7 @@ Gulp Backpack includes:
 * "gulp-jade": "^0.5.0"
 * "gulp-less": "^1.3.9"
 * "gulp-manifest": "0.0.6"
-* "gulp-ng-annotate": "^0.3.6"
+* "gulp-ng-annotate": "^0.5.2"
 * "gulp-plumber": "^0.6.5"
 * "gulp-rename": "^1.2.0"
 * "gulp-replace": "^0.4.0"
