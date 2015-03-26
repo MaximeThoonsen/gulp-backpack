@@ -1,4 +1,5 @@
 module.exports = {
+    gulp: require('../gulp'),
     templateCache: require('gulp-angular-templatecache'),
     autoprefixer: require('gulp-autoprefixer'),
     coffeelint: require('gulp-coffeelint'),

@@ -1,7 +1,7 @@
 {
     "name": "gulp-backpack",
-    "version": "0.1.1",
-    "description": "Collect all the classic gulp's dependencies you need in one package",
+    "version": "0.1.2",
+    "description": "Collect all the classic gulp's dependencies you need in one package and simplify your task",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -10,7 +10,7 @@
         "url": "https://github.com/MaximeThoonsen/gulp-backpack"
     },
     "keywords": [
-        "gulp"
+        "gulpplugin, angular, angularjs"
     ],
     "author": "Maxime Thoonsen",
     "license": "MIT",
