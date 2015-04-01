@@ -1,22 +1,24 @@
-#gulp-backpack
+<h1>gulp-backpack</h1>
 <p align="center">
   <a href="http://gulpjs.com">
     <img height="239" width="200" src="http://pixabay.com/static/uploads/photo/2012/04/12/11/42/backpack-29635_640.png">
   </a>
 </p>
 
+<a href='https://coveralls.io/r/MaximeThoonsen/gulp-backpack?branch=master'><img src='https://coveralls.io/repos/MaximeThoonsen/gulp-backpack/badge.svg?branch=master' alt='Coverage Status' /></a>
+<a href='https://travis-ci.org/MaximeThoonsen/gulp-backpack'><img src='https://travis-ci.org/MaximeThoonsen/gulp-backpack.svg' alt='Build Status' /></a>
+
 This repository is meant to simplify the inclusion of all those tools and gulp plugins
 we all need to compile our angular app with gulp. One gulp-backpack to gulp them all!
 
-## What gulp-backpack contains
-###Gulp plugins
+<h2>What gulp-backpack contains</h2>
+<h3>Gulp plugins</h3>
 
 * "gulp-angular-templatecache": "^1.1.3"
 * "gulp-autoprefixer": "^2.0.0"
 * "gulp-coffee": "^1.4.3"
 * "gulp-coffeelint": "^0.4.0"
 * "gulp-concat": "^2.2.0"
-* "gulp-filesize": "0.0.6"
 * "gulp-filter": "^0.4.1"
 * "gulp-jade": "^0.5.0"
 * "gulp-less": "^1.3.9"
@@ -31,12 +33,12 @@ we all need to compile our angular app with gulp. One gulp-backpack to gulp them
 * "gulp-util": "^2.2.20"
 * "gulp-webserver": "^0.8.8"
 
-### Tools
+<h3> Tools</h3>
 
 * "del": "^1.1.1"
 * "require-dir": "^0.1.0"
 
-## HOW TO USE IT
+<h3> HOW TO USE IT</h3>
 1) Installation
 You need to have gulp installed so your package.json looks like :
 
@@ -96,14 +98,14 @@ Using gulp-backpack
       .pipe gbp.rename 'rev-less.json'
       .pipe gbp.gulp.dest parameters.build_temp_path
 
-##PROS and CONS
+<h2>PROS and CONS</h2>
 
-###PROS
+<h3>PROS</h3>
 
     * The package.json is more simple
     * No need to require for every file every plugin
     * Less conflicts with the dependencies
 
-###CONS
+<h3>CONS</h3>
 
     * Maybe a little slower because we load all plugin
